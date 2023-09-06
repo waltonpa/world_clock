@@ -50,6 +50,7 @@ small {
 .container {
   font-family: "Montserrat", sans-serif;
   padding: 20px;
+  max-width: 100%; /* Ensure content doesn't exceed viewport width */
 }
 
 .wrapper-header {
