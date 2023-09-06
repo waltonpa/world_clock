@@ -1,6 +1,6 @@
 body {
-  background: #f0f0f0; /* Light gray background */
-  color: #333; /* Dark gray text color */
+  background: #f0f0f0;
+  color: #333;
 }
 
 img {
@@ -12,11 +12,11 @@ select {
   height: 50px;
   width: 350px;
   border: none;
-  color: #666; /* Medium gray text color */
+  color: #666;
   padding: 10px;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  background-color: #fff; /* White background */
+  background-color: #fff;
 }
 
 footer {
@@ -25,7 +25,7 @@ footer {
 }
 
 a {
-  color: #007bff; /* Blue link color */
+  color: #007bff;
 }
 
 a:hover {
@@ -50,13 +50,13 @@ small {
 .container {
   font-family: "Montserrat", sans-serif;
   padding: 20px;
-  max-width: 100%; /* Ensure content doesn't exceed viewport width */
+  max-width: 100%;
 }
 
 .wrapper-header {
-  background-color: #007bff; /* Blue header background */
+  background-color: #007bff;
   padding-top: 30px;
-  color: #fff; /* White text color */
+  color: #fff;
 }
 
 .wrapper-header h1 {
@@ -70,14 +70,14 @@ small {
   font-size: 200px;
   line-height: 1;
   text-align: right;
-  color: #007bff; /* Blue text color */
+  color: #007bff;
 }
 
 .city {
-  background-color: #007bff; /* Blue city background */
+  background-color: #007bff;
   margin: 10px;
   padding: 10px;
-  color: #fff; /* White text color */
+  color: #fff;
 }
 
 .city h2 {
