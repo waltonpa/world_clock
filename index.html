@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Clock - Pamela Walton</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.38/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="wrapper-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h1>World Clock</h1>
+          </div>
+          <div class="col-4">
+            <select id="city">
+              <option value="">Select a city</option>
+              <option value="current">My location</option>
+              <option value="Europe/London">London</option>
+              <option value="America/New_York">New York</option>
+              <option value="Europe/Berlin">Berlin</option>
+              <option value="Europe/Lisbon">Lisbon</option>
+              <option value="Asia/Tokyo">Tokyo</option>
+              <option value="America/Santiago">Santiago</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="current">
+        <h2>
+          This is the current time
+          <div>in Portugal</div>
+        </h2>
+        <div class="current-time">13:10:05</div>
+        <h3>Friday, November 4, 2022</h3>
+      </div>
+      <div class="row">
+        <div class="city col" id="paris">
+          <h2>Paris</h2>
+          <div class="date"></div>
+          <div class="time"></div>
+        </div>
+        <div class="city col" id="sydney">
+          <h2>Sydney</h2>
+          <div class="date"></div>
+          <div class="time"></div>
+        </div>
+        <div class="city col" id="madrid">
+          <h2>Madrid</h2>
+          <div class="date"></div>
+          <div class="time"></div>
+        </div>
+        <div class="city col" id="sao-paulo">
+          <h2>São Paulo</h2>
+          <div class="date"></div>
+          <div class="time"></div>
+        </div>
+        <div class="city col" id="los-angeles">
+          <h2>Los Angeles</h2>
+          <div class="date"></div>
+          <div class="time"></div>
+        </div>
+      </div>
+      <footer>
+        <a href="" target="_blank">Open source on GitHub</a>, Coded by Pamela
+        Walton
+      </footer>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
