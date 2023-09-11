@@ -5,7 +5,8 @@ body {
 
 img {
   width: 100%;
-  height: 200px;
+  max-width: 100%;
+  height: auto;
 }
 
 select {
@@ -17,6 +18,8 @@ select {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   background-color: #fff;
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
@@ -39,30 +42,39 @@ small {
 .current h2 {
   padding: 0;
   margin: 50px 0 0;
+  max-width: 100%;
+  height: auto;
 }
 
 .current h3 {
   padding: 0;
   margin: 0 0 50px;
   text-align: right;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   font-family: "Montserrat", sans-serif;
   padding: 20px;
   max-width: 100%;
+  height: auto;
 }
 
 .wrapper-header {
   background-color: #007bff;
   padding-top: 30px;
   color: #fff;
+  max-width: 100%;
+  height: auto;
 }
 
 .wrapper-header h1 {
   font-weight: 800;
   margin-bottom: 20px;
   font-size: 50px;
+  max-width: 100%;
+  height: auto;
 }
 
 .current-time {
@@ -71,6 +83,8 @@ small {
   line-height: 1;
   text-align: right;
   color: #007bff;
+  max-width: 100%;
+  height: auto;
 }
 
 .city {
@@ -78,15 +92,21 @@ small {
   margin: 10px;
   padding: 10px;
   color: #fff;
+  max-width: 100%;
+  height: auto;
 }
 
 .city h2 {
   margin-bottom: 0;
   font-size: 30px;
+  max-width: 100%;
+  height: auto;
 }
 
 .time {
   font-size: 25px;
   text-align: right;
   margin-top: 10px;
+  max-width: 100%;
+  height: auto;
 }
