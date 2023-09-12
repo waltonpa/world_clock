@@ -110,3 +110,39 @@ small {
   max-width: 100%;
   height: auto;
 }
+@media (max-width: 768px) {
+  select {
+    width: 100%;
+  }
+
+  .wrapper-header h1 {
+    font-size: 30px;
+  }
+
+  .current-time {
+    font-size: 60px;
+  }
+
+  .city h2 {
+    font-size: 20px;
+  }
+
+  .time {
+    font-size: 15px;
+  }
+
+  h1,
+  .container {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .container {
+    margin: 20px 0;
+    max-width: 90%;
+  }
+
+  .footer {
+    display: none;
+  }
+}
